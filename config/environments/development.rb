@@ -27,8 +27,16 @@ Rails.application.configure do
     config.cache_store = :null_store
   end
 
+
+
+  # precisei adicionar isso
+  config.secret_key_base = 'b40bd4ab9720451a08242238d5b529640d1ae10096f6bc759e46842bdb184d38a8649d746b326e8f4cf0f60513236367f21fd01009576a74a214d8d79c138884'
+
+
+
+
   # Store uploaded files on the local file system (see config/storage.yml for options)
-  config.active_storage.service = :local
+  # config.active_storage.service = :local
 
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = false
