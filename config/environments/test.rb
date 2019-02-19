@@ -43,4 +43,9 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+
+  # precisei adicionar isso
+  config.secret_key_base = 'b40bd4ab9720451a08242238d5b529640d1ae10096f6bc759e46842bdb184d38a8649d746b326e8f4cf0f60513236367f21fd01009576a74a214d8d79c138884'
+
 end
